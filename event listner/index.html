@@ -1,0 +1,22 @@
+<html>
+<head>
+	<h1 id="head1">Nithiya</h1>
+</head>
+<body>
+  <script>
+		 var a=document.getElementById("head1");
+		 a.addEventListener("click",callme);
+		 a.addEventListener("mouseout",callme);
+	 function callme()
+	 {
+		 this.style.color="yellow";
+		 alert("I'm Clicked");
+	 }
+	 function overme()
+	 {
+		 this.style.color="red";
+		 alert("I'm Out");
+	 }
+  </script>
+</body>
+</html>

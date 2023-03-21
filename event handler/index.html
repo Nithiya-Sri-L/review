@@ -1,0 +1,19 @@
+<html>
+ <body>
+	 <div id="D1"style="height:200px;width:200px;background-color:green">
+	 </div>
+	 <div id="D2"style="height:200px;width:200px;background-color:pink">
+	 </div> 
+	 <script>
+		 document.getElementById("D1").onclick=callme;//onclick evnt name//function call//without using function
+		 function callme()
+		 {
+			 alert("Mouse clicked");
+		 }
+		 document.getElementById("D2").onmouseover=function callover()//without using function keyword
+		 {
+			 alert("Mouse Over")
+		 };//fumction keyword using this is neccesary
+	 </script>
+	</body>
+</html>

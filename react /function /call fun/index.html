@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<script type="text/javascript">
+		var obj ={
+			name:"nithiya",
+	        color:"yellow" 
+		};
+		function getName(a,b){
+			console.log(this.color,a,b);       //object ah this use panni refer pnnrom
+			
+			//this umargument ah pass pandrom
+		}
+		getName.call(obj,2,3);   // , la thaan parameter pass pannanum
+		getName.apply(obj,[4,5]);     //
+		// obj this use panni refer pannum
+		
+		</script>
+	</head>
+		<body>
+		   
+	   </body>
+	</html>

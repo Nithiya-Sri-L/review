@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<body>
+<script>var number=parseInt(prompt("enter a number"))
+sum=0;
+temp=number;
+a=number;
+count=0;
+while(a>0)
+{
+	var rem=a%10;
+	a=(a-rem)/10;
+	count++;
+}
+while(temp>0)
+{
+rem=temp%10;
+sum=sum+rem**count;
+temp=parseInt(temp/10);
+}
+if(number==sum)
+{
+console.log("given number is armstrong number")
+}
+else
+{
+console.log("given number is not armstrong number")
+}
+
+</script>
+</body>
+</html>

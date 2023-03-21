@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<body>
+<script>
+	/*var a=[1,1,1,33,4,4,5]
+	var l=[]
+	for(i=0;i<a.length;i++){
+		if(l.includes(a[i])){
+			continue//l.push(a[i])
+		}else{
+			l.push(a[i])
+		}
+	
+	}
+	console.log(l)*/
+
+	//sum of the Array
+	var a=[1,33,4,5]
+	var sum=a.reduce(function(acc,c){
+		return acc+c;
+	}
+)
+	console.log(sum)
+
+
+	//odd and even
+var num = [11,17,22,13,54,15,66,27,38,9];
+let even = num.filter(function(value)
+{
+		return value%2==0;
+});
+console.log(even,num);
+var n= [11,17,22,13,54,15,66,27,38,9];
+let odd = n.filter(function(value)
+{
+		return value%2!=0;
+});
+console.log(odd);
+  //value return 
+		</script>
+</body>
+</html>

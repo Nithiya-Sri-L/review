@@ -1,0 +1,32 @@
+h1{
+	text-align:center;
+}
+.head{
+	display:flex;
+	justify-content:space-evenly;
+	height:300px;
+	background-color:blue;
+}
+.head .ant1
+{
+	background-color:orange;
+	width:40%;
+	height:100px;
+	margin-top:50px;
+	text-align:center;
+    margin-right:150px;
+	
+}
+.head .ant2
+{
+	background-color:orange;
+	width:40%;
+	height:100px;
+	margin-top:50px;
+}
+.head1{
+	height:300px;
+	background-color:blue;
+    text-align:center;
+    
+}

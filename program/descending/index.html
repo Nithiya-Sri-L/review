@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+</head>
+<body>
+	<script>
+		var a=parseInt(prompt("enter  a value"))
+		var b=parseInt(prompt("enter  b value"))
+		var c=parseInt(prompt("enter  c value"))
+		if (a>b && a>c)
+		{
+		     if (b>c)
+		        {
+		            document.write (a,b,c)
+		        }
+		      else
+		        {
+		            document.write (a,c,b)
+		        }
+		}
+		else if (b>a && b>c)
+		{
+		      if (a>c)
+		        {
+					document.write(b,a,c)
+		        }
+		       else
+		        {
+		             document.write(b,c,a)
+		        }
+		}
+		else if (c>a && c>b)
+		{
+		       if (a>b)
+		        {
+		            document.write(c,a,b)
+		        }
+		       else
+		        {
+		            document.write (c,b,a)
+		        }
+		}
+		else
+		{
+			document.write("numbers are same")
+		}
+		</script>
+	</body>
+	</html>

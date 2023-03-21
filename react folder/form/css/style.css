@@ -1,0 +1,26 @@
+
+.form-container .h2
+{
+	text-align:center;
+	padding:40px;
+	margin:50px auto;
+	}
+.form-grp
+	{
+		padding:40px;
+	}
+ input[type = text], input[type = password]{
+	padding:5px;
+	 width:20%;
+	border:4px solid pink; 
+ }
+ .login
+ {
+width:100%;
+text-align:center;
+}
+.color{
+	border: 4px solid blueviolet;
+	padding:30px;
+background-color:gray;
+}

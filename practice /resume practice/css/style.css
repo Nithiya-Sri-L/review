@@ -1,0 +1,38 @@
+header
+{
+	display:flex;
+}
+.header-left
+{
+	width:50%;
+    color:brown;
+}
+.header-left .header-title
+{
+	background-color: darkcyan;
+	padding-top: 60px;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+.header-left .header-name{
+	padding-left: 20px;
+
+}
+.header-left .header-name h1{
+	font-size: 50px;
+	padding-top: 20px ;
+
+}
+.header-left .header-name h3{
+font-style: italic;
+ font-size: 20px;
+}
+
+.header-right
+{
+	width:50%;
+	font-size: 15px;
+	padding-right: 20px;
+	margin-left: 40px;
+	
+}

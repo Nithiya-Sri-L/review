@@ -1,0 +1,44 @@
+h1
+{
+	color:red;
+}
+p
+{
+	color:blue;
+}
+h2
+{
+	color:blueviolet;
+}
+h3{
+	color:chocolate;
+}
+a{
+	color:midnightblue;
+}
+th
+{
+	color:seagreen;
+}
+td
+{
+	color:crimson;
+}
+ol
+{
+	color:mediumorchid;
+}
+ul
+{
+color:tomato;	
+}
+li
+{
+	color:indigo;
+}
+a{
+	color:blue;
+	padding: 20px;
+	border:solid 5px red;
+	display:inline-block;
+}

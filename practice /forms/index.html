@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <h1>forms practice</h1>
+</head>
+<body>
+    <form>
+   <div >
+        <label>firstName</label>
+        <input type="text" name="fname" placeholder="enter the firstname" required>
+    </div>
+    <div >
+        <label>lastName</label>
+        <input type="text" required placeholder="enter the lastname">
+    </div>
+    <div>
+        <label>phoneNumber</label>
+        <input type="number" required placeholder="enter phone number">
+    </div>   
+     <div>
+        <label>Email</label>
+        <input type="email" required placeholder="enter the email">
+    </div>
+    <input type="date" required placeholder="enter the date">
+    <input type="time" required placeholder="enter the time">
+     <div >
+        <label>country</label> 
+        <select>
+            <option value="IND">india</option>
+            <option value="CHN">china</option>
+            <option value="USA">usa</option>
+            <option value="JAP">japan</option>
+            <option value="SIGN">singapore</option>
+            <option value="PAK">pakistan</option>
+        </select>
+    </div>
+    <div >
+        <label>languages known</label> 
+        <input type="checkbox" name="k" ><label>Tamil</label>
+        <input type="checkbox" name="k" ><label>English</label>
+        <input type="checkbox" name="k" ><label>Malaiyalam</label>
+    </div>
+     <div>
+        <label>gender</label>
+        <input type="radio" name="n" value="male"><label>male </label>
+        <input type="radio" name="n" value="female"><label>female</label>
+    </div> 
+    <label>messge</label>
+    <textarea name="message"></textarea> 
+        <button>send</button>
+        <input type="submit">
+    </form>
+</body>
+</html>
